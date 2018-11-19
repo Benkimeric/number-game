@@ -9,6 +9,7 @@ def main():
     guess(number)
 
 
+# guess method with while loop to loop when user does not give correct guess
 def guess(number1):
     correct = False
     while correct is False:
@@ -24,5 +25,5 @@ def guess(number1):
 
         number1 = int(input("Guess again? Type your guess here: "))
 
-
+# calling main method to run the guess method as well as generate first random number
 main()
